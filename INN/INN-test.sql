@@ -1,4 +1,6 @@
-#Jake Veazey | wveazey@calpoly.edu
+-- asingh54@calpoly.edu and wveazey@calpoly.edu
+
+-- Abhinav Singh and Jake Veazey
 
 SELECT * FROM reservations;
 SELECT * FROM Rooms;

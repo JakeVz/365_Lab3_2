@@ -1,4 +1,6 @@
-#Jake Veazey | wveazey@calpoly.edu
+-- asingh54@calpoly.edu and wveazey@calpoly.edu
+
+-- Abhinav Singh and Jake Veazey
 
 INSERT INTO reservations (Code, Room, CheckIn, CheckOut, Rate, LastName, FirstName, Adults, Kids) VALUES(47496, 'RND', '2010/01/01', '2010/01/06', 150.00, 'KLEVER', 'ERASMO', 1, 0);
 INSERT INTO reservations (Code, Room, CheckIn, CheckOut, Rate, LastName, FirstName, Adults, Kids) VALUES(41112, 'RND', '2010/01/06', '2010/01/11', 135.00, 'HOOLEY', 'EUGENIO', 1, 0);

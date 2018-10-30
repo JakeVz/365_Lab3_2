@@ -1,3 +1,4 @@
+-- Jake Veazey | wveazey@calpoly.edu
 -- Abhinav Singh
 -- asingh54@calpoly.edu
 

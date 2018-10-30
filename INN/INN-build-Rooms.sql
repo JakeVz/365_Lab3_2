@@ -1,4 +1,6 @@
-#Jake Veazey | wveazey@calpoly.edu
+-- asingh54@calpoly.edu and wveazey@calpoly.edu
+
+-- Abhinav Singh and Jake Veazey
 
 INSERT INTO Rooms(RoomId,roomName,beds,bedType,maxOccupancy,basePrice,decor) VALUES ('RND','Recluse and defiance',1,'King',2,150,'modern');
 INSERT INTO Rooms(RoomId,roomName,beds,bedType,maxOccupancy,basePrice,decor) VALUES ('IBS','Interim but salutary',1,'King',2,150,'traditional');
