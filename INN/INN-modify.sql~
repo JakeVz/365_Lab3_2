@@ -1,0 +1,64 @@
+ALTER TABLE Rooms ADD COLUMN (description VARCHAR(200));
+
+UPDATE Rooms
+SET description = 'Never worry about human interaction! Windowless room 
+   stubbornly outfitted with various forms of electronics and high-speed 
+   internet.'
+WHERE roomName = 'Recluse and defiance';
+
+UPDATE Rooms
+SET description = 'Take a look at the bright side of life for a little while. 
+   The walls are painted with deep quotes illustrating the silver linings of 
+   seemingly bad circumstances.'
+WHERE roomName = 'Interim but salutary';
+
+UPDATE Rooms
+SET description = 'Live the thug life or relax in multiple layers of back-
+   supporting pillows! Room decorated with faux breakable bars for quick 
+   escape and several bolstering pillows.'
+WHERE roomName = 'Abscond or bolster';
+
+UPDATE Rooms
+SET description = 'The room for ill genii. Medicine for most curable illnesses 
+   accessible after solving cryptic puzzles. Bringing at least one Ravenclaw 
+   is recommended.'
+WHERE roomName = 'Mendicant with cryptic';
+
+UPDATE Rooms
+SET description = 'Aiming for some thrill in your life? This room includes a 
+   psychic that will inform you of things to come in your life, leaving you a 
+   small souvenir to remind you of the prediction.'
+WHERE roomName = 'Harbinger but bequest';
+
+UPDATE Rooms
+SET description = 'The decor in this room has not been changed in the 50 years 
+   this room has been available. Experience a truly outdated stay in this 
+   one-of-a-kind room.'
+WHERE roomName = 'Immutable before decorum';
+
+UPDATE Rooms
+SET description = 'Experience the thrill of being the valedictorian of your 
+   college class! Room perfectly represents the studio apartment of a broke 
+   college student complete with wall-plastered awards.'
+WHERE roomName = 'Thrift and accolade';
+
+UPDATE Rooms
+SET description = 'Experience all the spookiness of Halloween! Room includes 
+   gothic decor and an assembly of real vampires.'
+WHERE roomName = 'Convoke and sanguine';
+
+UPDATE Rooms
+SET description = 'OBJECTION! Court is always in session in this courthouse-
+   themed room. Prove your defendant innocent using evidence in order to gain 
+   access to the bathroom!'
+WHERE roomName = 'Riddle to exculpate';
+
+UPDATE Rooms
+SET description = 'This room is not for the faint-of-wallet. Room equipped 
+   with state-of-the-art holographic technology and a bed carved from 24k 
+   diamond.'
+WHERE roomName = 'Frugal not apropos';
+
+SELECT *
+FROM Rooms
+ORDER BY RoomId \G
